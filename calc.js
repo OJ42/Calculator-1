@@ -7,7 +7,7 @@ const reader = readline.createInterface({
 
 
 
-reader.question("What would you like to calculate? We can handle + - * / sqrt \nsq(squar 1 number) \ncube(cube a number) \npower(raise a number to another power) \nre(find the remainder when dividing)\n", function(input){
+reader.question("What would you like to calculate? We can handle + - * / sqrt \nsq (squar 1 number) \ncube (cube a number) \npower (raise a number to another power) \nre (find the remainder when dividing)\n", function(input){
 	tokens = input.split(' ');
 	
 	mathSymbol = tokens[0];
@@ -49,5 +49,5 @@ if (mathSymbol === "re"){
 }
 	// This line closes the connection to the command line interface.
 	reader.close()
-//does this update
+//does this update???
 });
