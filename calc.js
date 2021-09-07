@@ -49,5 +49,5 @@ if (mathSymbol === "re"){
 }
 	// This line closes the connection to the command line interface.
 	reader.close()
-//does this update?????
+//does this update?
 });
